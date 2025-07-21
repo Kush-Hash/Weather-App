@@ -3,7 +3,7 @@ import TextField from '@mui/material/TextField';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 
-import './SearchBar.css';
+import './Searchbar.css';
 
 const SearchBar = ({ updateInfo }) => {
     let [city, setCity] = React.useState("");
