@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.2rem;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.leftBox {
+    width: 70%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-right: 1px solid #ccc; */
+}
+
+.rightBox {
+    width: 30%;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.temperature {
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10rem;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#temp {
+
+    font-size: 6.5rem;
+}
+
+#weather-city {
+    font-size: 2.25rem;
+}
+
+.datetime {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 1.6;
+}
+
+.leftBox,
+.rightBox {
+    background-color: rgba(0, 0, 0, 0.304);
+    /* dark overlay */
+    padding: 20px;
+
+}
+
+.detailsSection {
+    margin-top: 20px;
+}
+
+.detailsSection h3 {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.weatherDesc {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+
+.glass-panel {
+    background: rgba(255, 255, 255, 0);
+    /* Transparent white */
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.878);
+}
+
+.weatherTable {
+    border-collapse: collapse;
+    width: 87%;
+    /* border: 1px solid black; */
+}
+
+.weatherTable th {
+    text-align: left;
+    padding: 8px 10px;
+}
+
+.weatherTable td {
+    padding: 8px 10px;
+    vertical-align: middle;
+}
+
+.value-cell {
+    text-align: right;
+    width: 60px;
+    /* adjust based on your layout */
+}
+
+.icon-cell {
+    text-align: left;
+    width: 30px;
+    /* fixed width keeps it consistent */
+    font-size: 1.2rem;
+    color: #ffffffcc;
+    /* soft white tint */
+
+}
+
+tr td i {
+    margin-left: 0.67rem;
+    font-size: 1.2rem;
+}
+
+.fa-temperature-low {
+    color: rgb(18, 71, 196);
+}
+
+.fa-temperature-full {
+    color: rgba(255, 0, 0, 0.671);
+}
+
+.fa-droplet {
+    color: skyblue;
+}
+
+tr th {
+    font-weight: 500;
+}
+
+.weatherTable td i {
+    vertical-align: middle;
+    margin-left: 8px;
+    font-size: 1.2rem;
+}
+
+.bottomicon-conainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.bottomIcon {
+    font-size: 5rem;
+}
+
+.bottom-para {
+    font-size: 1rem;
+}
